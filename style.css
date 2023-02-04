@@ -1,0 +1,26 @@
+html 
+{
+    background-color: rebeccapurple;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    text-align: center;
+}
+
+.profile
+{
+    text-align: center;
+}
+.profile img 
+{
+    border-radius: 10%;
+}
+
+.profile p 
+{
+    font-size: 2rem;
+}
