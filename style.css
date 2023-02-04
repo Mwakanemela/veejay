@@ -1,26 +1,125 @@
-html 
-{
-    background-color: rgba(93, 32, 155, 0.5);
-    color: white;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header 
-{
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     text-align: center;
-}
+  }
+  
+  /* styling audio */
+  audio {
+    width: 100%;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .play-pause-btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  .volume-control {
+    width: 50%;
+  }
+  
+  .timeline {
+    background-color: #ddd;
+    height: 5px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .playhead {
+    background-color: #333;
+    height: 100%;
+    position: absolute;
+    width: 5px;
+  }
+  
+  /* Style the download link */
+#download-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Change the background color of the download link on hover */
+  #download-link:hover {
+    background-color: #2980b9;
+  }
 
-.profile
-{
+  figure {
     text-align: center;
-}
-.profile img 
-{
-    border-radius: 10%;
-}
-
-.profile p 
-{
-    font-size: 2rem;
-}
+    margin: 20px 0;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  figcaption {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
